@@ -1,0 +1,34 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+@import "sass/base";
+@import "sass/nav-bar";
+@import "sass/carousel";
+@import "sass/card";
+@import "sass/variables";
+@import "sass/colors";
+@import "sass/button";
+@import "sass/avatar";
+@import "sass/banner";
+@import "sass/index";
+@import "sass/layout";
+@import "sass/contact-form";
+@import "sass/footer";
+@import "sass/projects";
+@import "sass/contact";
+@import "sass/news";
+@import "sass/newsitem";
+@import "sass/admin-page";
+@import "sass/new-newsitem";
+@import "sass/article-form";
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}

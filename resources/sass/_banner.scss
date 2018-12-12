@@ -1,0 +1,55 @@
+.banner {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+  height: 95vh;
+  margin-top: -7rem;
+
+  background: linear-gradient(
+      to right bottom,
+      rgba(lighten($text-color-nav, 40%), 0.5),
+      rgba(darken($text-color-nav, 30%), 0.3)
+    ),
+    url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+
+  h1 {
+    color: white;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 30rem;
+    right: 10rem;
+    width: 45%;
+    background: darken($color: $text-color-nav, $amount: 50%);
+    padding: 2rem;
+    text-align: end;
+
+    .letter {
+      display: inline-block;
+    }
+  }
+  p {
+    color: darken($color: $text-color-nav, $amount: 60%);
+    font-size: 2rem;
+    margin-left: 5rem;
+    position: absolute;
+    bottom: 18rem;
+    right: 5rem;
+    width: 50%;
+    background: darken($color: $text-color-nav, $amount: 20%);
+    padding: 2rem;
+    text-align: end;
+    margin-top: 2rem;
+  }
+  .banner-button {
+    margin-right: 5rem;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 10rem;
+    right: 10rem;
+  }
+}
